@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profissão Programador</title>
+
+        <!-- ############# STYLE & SCRIPT ############# -->
+
+        <style>
+
+            /* ############# Seletores CSS ############# */
+            .header1 {
+                background-color: blueviolet;
+                color: white;
+                height: 500px;
+            }
+
+            div {
+                background-color: yellowgreen;
+                color: brown;
+            }
+
+            #headerG {
+                background-color: aquamarine;
+                color: violet;
+            }
+
+        </style>
+        
+        <script>
+            alert("Olá! Isso é um código JS.")
+        </script>
+    </head>
+    <body>
+
+        <!-- ############# ATRIBUTOS ############# -->
+
+        <!-- Atributos servem principalmente para personalizar e adicionar funcionalidades a uma tag HTML -->
+        
+        <!-- Existem diversos atributos para tags e muitas tags tem seus próprios atributos -->
+        
+        <!-- Alguns atributos em comuns entre as tags HTML -->
+
+        <!--
+            class="xx" - Atribui uma classe ao elemento (uma classe pode ser utilizada para um ou mais elementos);
+            id="xx" - Atribui um id ao elemento (um id deve ser único, ou seja, atribuido a um único elemento);
+            style="xx" - Permite incluir elementos CSS (estilos) dentro da tag;
+            lang="xx" - Define o idioma principal do elemento;
+            title="xx" - Define o título do elemento;
+            alt="xx" - Define um texto alternativo e, por isso, é muito utilizado em imagens, auxilia nas práticas de SEO;
+            hidden - Oculta o elemento;
+            align="xx" - Permite definir o padrão de alinhamento desse elemento, como por exemplo: right, center, left e justify;
+            width="xx" - Define uma largura para o elemento;
+            height="xx" - Define uma altura para o elemento.
+        -->
+
+        <div class="primeira" id="vermelho" style="background-color: yellow;" lang="pt-br" title="div" alt="">
+            Primeira aula
+        </div>
+
+        <!-- ############# TAGS ESTRUTURAIS ############ -->
+
+        <!--
+            <header></header> - Essas tags definem um cabeçalho. Portanto, todo conteúdo que estiver dentro dela faz
+            parte de um cabaçalho, podendo ser utilizado dentro de outras sessões;
+            <main></main> - Essas tags representam o conteúdo principal do seu corpo, ou seja, o conteúdo relacionado
+            diretamente com o tópico central da página ou com a funcionalidade central;
+            <footer></footer> - Essas tags definem um rodapé para a página, geralmente utilizadas no final da página;
+            <section></section> - Essas tags definem uma sessão para a sua página;
+            <article></article> - Essas tags definem um artigo da sua página. Nesse sentido, são utilizadas para separar
+            o conteúdo da sua página. muito utilizado principalmente por blogs;
+            <aside></aside> - Essas tags representam uma seção de uma página cujo conteúdo é tangencialmente relacionado
+            ao conteúdo do seu entorno, que poderia ser considerado separado do 
+            <nav></nav> - Essa tag define um conteúdo de navegação. Portanto, é muito utilizado em conjunto com listas e
+            na criação de menus. É muito comum ela estar situada dentro da tag <header></header>, pois geralmente
+            é onde fica localizada a navegação de uma páginal;
+            <div></div> - Define uma divisão da página. Desta forma, funciona como um container para conteúdo de fluxo.
+            Uma vez que não possui um valor semântico, é muito utilizado para organizar.
+
+        -->
+
+        <header class="header1">
+            <nav>
+                <ul>
+                    <!-- ############# ÂNCORA ############# -->
+                    <!--
+                        Todo conteúdo que estiver dentro da tag <a href=""></a> (âncora) se tornará clicável (hiperlink),
+                        sendo direcionado para a página que estará inserida dentro do href="xx"
+                    -->
+                    <!-- Para abrir o link em outra aba precisa inserir a tag target="_blank" -->
+        
+                    <a href="./contato.html" target="_blank">
+                        <li>Home</li>
+                    </a>
+                    <li>Contato</li>
+                    <li>Fotos</li>
+                </ul>
+            </nav>
+        </header>    
+
+        <header id="headerG" class="header2">
+            <nav>
+                <ul>
+                    <!-- ############# ÂNCORA ############# -->
+                    <!--
+                        Todo conteúdo que estiver dentro da tag <a href=""></a> (âncora) se tornará clicável (hiperlink),
+                        sendo direcionado para a página que estará inserida dentro do href="xx"
+                    -->
+                    <!-- Para abrir o link em outra aba precisa inserir a tag target="_blank" -->
+        
+                    <a href="./contato.html" target="_blank">
+                        <li>Home</li>
+                    </a>
+                    <li>Contato</li>
+                    <li>Fotos</li>
+                </ul>
+            </nav>
+        </header> 
+
+        <!-- ############# TÍTULOS E TEXTOS ############# -->
+
+        <div>
+
+            <!-- As tags h1, h2, h3, h4, h5 e h6 são utilizadas para títulos -->
+            <h1>Vendas de Carros em Campos dos Goytacazes</h1>
+            <h2>Celta</h2>
+            <h3>Spin</h3>
+            <h4>S10</h4>
+            <h5>Gol</h5>
+            <h6>Venha conferir</h6>
+
+            <!-- Tag span é utilizado para texto comum, sem tanta importância -->
+            <span>
+                <i> <!-- Tag itálico -->
+                    para cuidar corretamente do teu carro,
+                </i>
+                acompanhe as nossas
+                <b> <!-- Tag negrito -->
+                    redes sociais
+                </b>
+            </span>
+
+            <p> <!-- Tag para parágrafo -->
+                Venha comprar o teu carro novo em nossa consecionária, <br /> nossa loja é o melhor lugar.
+                <!-- Tag br (break row) é utilizada para quebra de linha -->
+            </p>
+        </div>
+
+        <!-- ############# FORMULÁRIO_PARTE 1 -->
+
+        <form action="./index.html">
+
+            <label for="email">E-mail</label>
+            <input style="display: block" id="email" type="email" name="qualquercoisa" placeholder="insira um email válido" />
+
+            <label for="password">Senha</label>
+            <input style="display: block" id="password" type="password" name="password" />
+
+            <label for="text">Texto</label>
+            <input style="display: block" id="text" type="text" name="text" />
+
+            <label for="checkbox">CheckBox</label>
+            <input style="display: block" id="checkbox" type="checkbox" name="checkbox" />
+
+            <label for="radio">Masculino</label>
+            <input style="display: block" id="radio" type="radio" name="sexo" value="masculino" />
+
+            <label for="radio">Feminino</label>
+            <input style="display: block" id="radio" type="radio" name="sexo" value="feminino" />
+
+            <label for="radio">outros</label>
+            <input style="display: block" id="radio" type="radio" name="sexo" value="outros" />
+
+            <label for="range">Range</label>
+            <input style="display: block" id="range" type="range" name="range" />
+
+            <label for="number">Número</label>
+            <input style="display: block" id="number" type="number" name="number" />
+
+            <label for="file">Arquivo</label>
+            <input style="display: block" id="file" type="file" name="file" />
+
+            <label for="date">Data</label>
+            <input style="display: block" id="date" type="date" name="date" />
+
+            <select style="display: block" name="dia da semana">
+                <option value="domingo">Domingo</option>
+                <option value="segunda">Segunda-feira</option>
+                <option value="terça">Terça-feira</option>
+                <option value="quarta">Quarta-feira</option>
+                <option value="quinta">Quinta-feira</option>
+                <option value="sexta">Sexta-feira</option>
+                <option value="sabado">Sábado</option>
+            </select>
+
+            <textarea style="display: block" name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+
+            <button>Enviar</button>
+            
+        </form>
+
+        <!-- ############# TAGS DE MÍDIA ############# -->
+
+        <img src="./midia/raioazul.jpg" style="display: block;" />
+
+        <video controls style="width: 50%; border-radius: 10px;">
+            <source src="./midia/Tina Charles - Dance Little Lady.mp4" type="video/mp4">
+            Seu navegador não possui suporte para vídeos.
+        </video>
+
+        <audio id="player" controls>
+            <source src="./midia/BANDOLINS - OSWALDO MONTENEGRO.mp3" type="audio/mpeg">
+            Seu navegador não possui suporte para áudio.
+        </audio>
+
+                
+            <button onclick="document.getElementById('player').play()">Play</button>
+            <button onclick="document.getElementById('player').pause()">Pause</button>
+       
+
+        <iframe src="./contato.html"></iframe>
+
+        
+
+        
+    </body>
+</html>
