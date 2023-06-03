@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.minhadiv {
+    background-color: black;
+    width: 80%;
+    height: 500px;
+    padding: 10px;
+    border: 15px solid orangered;
+    border-radius: 30px;
+ }
+
+.filhodiv {
+    background-color: yellow;
+    width: 20%;
+    height: 20%;
+    margin: 20px 20PX;
+    padding: 30px;
+    border: 20px double white;
+    border-radius: 50%;
+}
