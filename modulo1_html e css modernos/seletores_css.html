@@ -1,0 +1,98 @@
+<!--
+    Maneira como selecionamos os elementos HTML dentro do CSS ou dentro do JavaScript para estilizar ou dar vida a esses elementos por meio do JavaScript.
+    Utiliza-se a Tag <style></style> para confeccionar o código CSS.
+    
+    Obs.: Essa não é uma prática para escrever um código CSS. A melhor maneira é criar um arquivo, geralmente denominado style.css e lincar com o arquivo HTML.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores CSS</title>
+    <style>
+        /* O ponto (.) é um seletor de classe */
+        .header1 {
+            background-color: brown;
+            color: beige;
+        }
+
+        .header2 {
+            background-color: yellow;
+            color: black;
+        }
+
+        /* O nome da Tag também pode ser um seletor */
+        p {
+            background-color: blueviolet;
+            color: bisque;
+            text-align: center;
+            height: 250px;
+        }
+
+        /* O hashtag (#) é o seletor do id */
+        #footer {
+            background-color: black;
+            color: yellow;
+        }
+
+        #footerfinal {
+            background-color: black;
+            color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <header class="header1">
+            <div>
+                <ul>
+                    <li>Home</li>
+                    <li>Projetos</li>
+                    <li>Contato</li>
+                </ul>
+            </div>
+    </header>
+            
+        <main>
+            <p>
+                Aprendendo sobre os seletores css no html. Curso Profissão Programador. <br>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ad perferendis nam temporibus, ratione ducimus cupiditate sequi aliquam perspiciatis ea debitis deserunt, error voluptas eius animi aspernatur voluptatem modi minima. <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quidem, id, natus necessitatibus laboriosam assumenda perferendis nesciunt numquam fugit eos ullam, voluptatibus expedita magnam voluptates alias doloribus ratione explicabo velit? <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quisquam officia, ea excepturi sit rerum mollitia natus ex minus iste nesciunt omnis dolore harum vitae corrupti quaerat, voluptatem beatae in. <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, cupiditate. Unde similique iure nulla iusto eum at accusantium molestias quam enim repellat quis earum quidem, laboriosam accusamus adipisci recusandae qui. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum enim qui blanditiis, nam dignissimos nostrum sequi ipsam facere numquam consequuntur culpa. Sit a recusandae unde, nemo eveniet temporibus quod quae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sequi incidunt sunt ratione impedit autem pariatur quo, voluptatum, hic sapiente modi? Voluptas, autem cumque. Sit et nobis voluptatem accusamus quidem. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam at quis commodi velit beatae eum tempore. Laudantium aspernatur omnis illum? Distinctio nulla et fugit odit accusantium corrupti consequatur eligendi error!
+            </p>
+        </main>
+    
+    <header class="header2">
+        <div>
+            <ul>
+                <li>Nome</li>
+                <li>Endereço</li>
+                <li>E-mail</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <p>
+            Aprendendo sobre os seletores css no html. Curso Profissão Programador. <br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ad perferendis nam temporibus, ratione ducimus cupiditate sequi aliquam perspiciatis ea debitis deserunt, error voluptas eius animi aspernatur voluptatem modi minima. <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quidem, id, natus necessitatibus laboriosam assumenda perferendis nesciunt numquam fugit eos ullam, voluptatibus expedita magnam voluptates alias doloribus ratione explicabo velit? <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quisquam officia, ea excepturi sit rerum mollitia natus ex minus iste nesciunt omnis dolore harum vitae corrupti quaerat, voluptatem beatae in. <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, cupiditate. Unde similique iure nulla iusto eum at accusantium molestias quam enim repellat quis earum quidem, laboriosam accusamus adipisci recusandae qui. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum enim qui blanditiis, nam dignissimos nostrum sequi ipsam facere numquam consequuntur culpa. Sit a recusandae unde, nemo eveniet temporibus quod quae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sequi incidunt sunt ratione impedit autem pariatur quo, voluptatum, hic sapiente modi? Voluptas, autem cumque. Sit et nobis voluptatem accusamus quidem. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam at quis commodi velit beatae eum tempore. Laudantium aspernatur omnis illum? Distinctio nulla et fugit odit accusantium corrupti consequatur eligendi error!
+        </p>
+    </main>
+
+    <footer id="footer">
+        <ol>
+            <li>Redes Sociais</li>
+        </ol>
+    </footer>
+
+    <footer id="footerfinal">
+        <ol>
+            <li>Banner</li>
+        </ol>
+    </footer>
+</body>
+</html>
