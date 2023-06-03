@@ -1,0 +1,17 @@
+h1 {
+    color: yellow;
+    background-color: black;
+    
+}
+
+.pai {
+    width: 80%;
+    height: 1000px;
+    background-color: orangered;
+}
+
+.filho {
+    width: 50%;
+    height: 50%;
+   background-color: tan;
+}
