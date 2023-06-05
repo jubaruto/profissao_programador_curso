@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 200vh;
+    width: 200wh;
+}
+
+.imagem {
+    width: 500px;
+    height: 500px;
+    background-image: url("./midia/raioazul.jpg");
+    background-position: 50% 50%;
+}
+
+.cores {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(153, 102, 51, 0.5);
+    background-position: 50% 50%;
+    border: crimson;
+    border-style: solid;
+    
+}
