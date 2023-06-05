@@ -1,0 +1,48 @@
+<!-- 
+    A propriedade de CSS POSITION serve basicamente para definir como o elemento irá se pocionar e se comportar em tela. Há 05 tipos de positions:
+
+    > STATIC: Matém o elemento estático, sem mudanças;
+    > FIXED: Matém o elemento fixo, ou seja, não seguirá o fluxo normal de elementos HTML;
+    > STICKY: Significa pegajoso. Muito parecido com o position fixed;
+    > RELATIVE: Atribui um valor para a sua posição em relação a sua posição atual;
+    > ABSOLUTE: Pode se comportar de 2 maneiras. Se estiver inserido dentro de um elemento contendo position static, adotará os valores do documento, ou seja, os limites da tela. Porém, se ele estiver inserido dentro de um elemento contendo position relative, levará em consideração os valor do elemento pai.
+ -->
+
+ <!-- 
+    VH (view height): indica que o valor inserido será de 100% da tela. Não é necessário inserir a quantidade de px que deseja, a altura será equivalente ao tamanho da tela.
+    Também pode ser utilizado na largura VW (view width).
+  -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link rel="stylesheet" href="./styles_position.css">
+</head>
+<body>
+    <h1>Position</h1>
+    
+    <div class="minhadiv01">
+        <p>Definição de posição e comportamento do elemento</p>
+    </div>
+
+    <div class="minhadiv02">
+        <p>Definição de posição e comportamento do elemento</p>
+    </div>
+
+    <br>
+
+    <div class="minhadiv03">
+        <p>Definição de posição e comportamento do elemento</p>
+    </div>
+
+    <br>
+
+    <div class="minhadiv04">
+        <p class="absolute">Definição de posição e comportamento do elemento</p>
+    </div>
+</body>
+</html>
