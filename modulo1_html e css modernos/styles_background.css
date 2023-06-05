@@ -1,0 +1,12 @@
+h1 {
+    background-color: yellowgreen;
+}
+
+.imagem {
+    width: 760px;
+    height: 400px;
+    background-image: url("./midia/gato.jpg");
+    background-position: 50% 50%;
+    background-size: auto;
+}
+
