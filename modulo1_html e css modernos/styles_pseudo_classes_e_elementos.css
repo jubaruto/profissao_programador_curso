@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    background-color: black;
+}
+
+body {
+    height: 200vh;
+    width: 200vw;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.classes {
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    transition: 2s;
+    border-color: white;
+    border-style: solid;
+}
+
+.classes:hover {
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    border-color: white;
+    border-style: solid;
+}
+
+.input {
+   
+    background-color: yellow;
+    border: 5px white;
+    border-style: solid;
+}
+
+.input:disabled {
+    
+    background-color: blue;
+    border-color: white;
+    border-style: solid;
+}
+
+.elementos::before {
+    content: '→nossatag';
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    border-color: white;
+    border-style: solid;
+    color: whitesmoke;
+}
+
+.elementos::after {
+    content: 'nossatag→';
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    border-color: white;
+    border-style: solid;
+    color: whitesmoke;
+}
