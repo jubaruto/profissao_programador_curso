@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    background-color: black;
+}
+
+body {
+    height: 200vh;
+    
+}
+
+h1 {
+    color: aliceblue;
+}
+
+p {
+    color: red;
+}
+
+.minhadiv01 {
+    width: 500px;
+    height: 500px;
+    background-color: orangered;
+    position: sticky;
+}
+
+.minhadiv02 {
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    position: fixed;
+    top: 40px;
+    left: 700px;
+    right: 5px;
+}
+
+.minhadiv03 {
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    position: static;
+    top: 40px;
+    left: 0px;
+    right: 5px;
+    
+}
+
+.minhadiv04 {
+    width: 500px;
+    height: 500px;
+    background-color: violet;
+    position: relative;
+    top: 50px;
+    left: 0px;
+    right: 5px;
+    
+}
+
+.absolute {
+    width: 50%;
+    height: 50%;
+    background-color: oldlace;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
