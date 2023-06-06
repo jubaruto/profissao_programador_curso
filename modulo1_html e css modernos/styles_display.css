@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+.display {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: inline;
+    color: white;
+}
+
+.inblock {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: inline-block;
+    color: white;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: block;
+    color: white;
+}
+
+.none {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: none;
+    color: white;
+}
