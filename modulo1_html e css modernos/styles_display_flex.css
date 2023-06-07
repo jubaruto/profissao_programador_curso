@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+.dflex {
+    width: 800px;
+    height: 400px;
+    background-color: tomato;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filho {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: aliceblue;
+    border-color: black;
+    border-style: solid;
+}
