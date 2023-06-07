@@ -1,0 +1,42 @@
+<!-- 
+    DIPLAY FLEX
+    Sempre será inserido no bloco pai e isso refletirá no posicionamento dos blocos filhos.
+    Quando o display flex é inserido, os blocos filhos são pocionados, automaticamente, lado a lado.
+
+    PROPRIEDADES DO DISPLAY FLEX
+
+    > FLEX-DIRECTION (HORIZONTAL)
+        O ROW é o valor padrão (defaul), ou seja, não é necessário inseri-lo.
+        O ROW-REVERSE serve para inverter a ordem dos ítens.
+        O COLUMN serve para organizar os ítens em coluna.
+        O COLUMN-REVERSE serve para inverter a ordem dos ítens.
+
+    > JUSTIFY-CONTENT(HORIZONTAL) 
+        O FLEX-START adotará o posicionamento inicial, ou seja, todos os ítens estarão no ínicio do bloco pai.
+        O FLEX-END adotará o posicionamento final, ou seja, todos os ítens estarão no final do bloco do pai, mas sem inverter a ordem.
+        CENTER adotará o posicionamento central, ou seja, todos os ítens estarão localizados no centro do bloco pai.
+        SPACE-BETWEEN separa os elementos ao máximo, horizontalmente, dentro do bloco pai.
+        SPACE-AROUND separa os elementos, porém também insere espaçamentos nas laterais do bloco pai.
+        SPACE-EVENLY separa os elementos, insere espaçamentos nas laterais, sendo todos os espaçamentos de tamanho iguais.
+
+    > ALIGN-ITEMS (VERTICAL)
+        Utiliza-se as mesmas atribuições do Justify-Content.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex</title>
+    <link rel="stylesheet" href="./styles_display_flex.css">
+</head>
+<body>
+    <div class="dflex">
+        <div class="filho">1</div>
+        <div class="filho">2</div>
+        <div class="filho">3</div>
+    </div>
+</body>
+</html>
