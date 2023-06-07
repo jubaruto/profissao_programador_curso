@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+}
+
+.dgrid {
+    width: 600px;
+    height: 500px;
+    background-color: sienna;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.filho {
+    width: 100px;
+    height: 100px;
+    background-color: seagreen;
+    border: 3px solid black;
+    color: white;
+}
