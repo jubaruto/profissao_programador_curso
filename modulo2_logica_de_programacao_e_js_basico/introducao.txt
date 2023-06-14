@@ -1,0 +1,53 @@
+LÓGICA DE PROGRAMAÇÃO
+
+Conjunto de técnicas e conhecimentos que são utilizados para inserir instruções em uma sequência lógica para chegar em um determinado resultado.
+
+ALGORÍTMO
+
+Sequência lógica desenvolvida através de uma linguagem de programação, a qual passará instruções claras e precisas para o computador.
+
+Exemplo: - email, senha
+         - clicar no botão de entrar
+         - mudar o status para logado
+         - exibir mensagem de bem-vindo
+
+HARDWARE E SOFTWARE
+
+Hardware: São os componentes físicos do computador. Ex.: Teclado, monitor, memória, HD, processador, mouse e etc.
+
+Software: É o sistema que roda em cima do componente físico passando instruções por meio de algorítmos.
+
+LINGUAGEM DE MÁQUINA
+
+Linguagem compreendida pelo computador.
+
+Exemplo: binário (bits). Conjunto de 0 e 1.
+
+LINGUAGEM DE BAIXO NÍVEL
+
+São linguagens que aproximam à linguagem de máquina, mas de certa forma conseguem estabelecer uma compreensão para seres humanos.
+
+Exemplo: Assembly.
+
+LINGUAGENS DE ALTO NÍVEL
+
+São as linguagens que são melhores compreendidas pelos seres humanos.
+
+Exemplo: JavaScript, Python, Java, PHP, C#, C++...
+
+-> a máquina não entende a linguagem de alto nível;
+-> é necessário converter nosso código fonte de uma maneira que a máquina entenda;
+-> compilação e interpretação.
+
+COMPILAÇÃO
+
+O código fonte é convertido em outro fonte uma única só vez.
+Exemplo: compilado -> compila em um ou mais arquivos que a máquina entende -> o arquivo compilado é salvo -> são executados.
+Exemplo de linguagem compilada é a linguagem C.
+
+INTERPRETAÇÃO
+
+A mudança ocorre ao mesmo tempo que a demanda é necessária. 
+
+Exemplo: interpretação (tradução) -> execução.
+Exemplo de linguagem de interpretação são as linguagens JavaScript, Python, PHP e etc.
